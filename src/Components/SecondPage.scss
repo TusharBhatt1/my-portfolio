@@ -1,0 +1,47 @@
+.maincontainer{
+   
+
+h3{
+    text-align: center;
+    color: rgb(3, 1, 17);
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    text-shadow: 1px 1px black;
+}
+.projects{
+    background: #000;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10%;
+
+    .projectsone{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    
+        gap:20px;
+        a{
+            border: 1px solid black;
+            padding: 4%;
+            text-decoration: none;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            color: black;
+            background-color: rgb(245, 198, 8);
+            border-radius: 0px 10px 10px 0px;
+            font-weight: bolder;
+            // display: flex;
+            // gap:10px;
+        }
+    }
+    .projectstwo{
+        flex: 1;
+    }
+    .projectstwo{
+       
+       display: flex;
+       justify-content: center;
+    }
+}
+}
