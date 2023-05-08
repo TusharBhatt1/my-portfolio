@@ -6,7 +6,7 @@ import "./SecondPage.scss"
 
 export default function SecondPage() {
   return (
-    <Fade className='maincontainer' delay={2000} style={{marginTop:"10vh"}} direction='left' duration={2000} >
+    <Fade className='maincontainer' delay={1500} style={{marginTop:"10vh"}} direction='left' duration={2000} >
     <h3>
       Projects
     </h3>

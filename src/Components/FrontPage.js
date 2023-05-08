@@ -9,7 +9,7 @@ import BorderColorIcon from '@mui/icons-material/BorderColor';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 export default function FrontPage() {
   return (
-    <Parallax  strength={-600} bgImage={bg}>
+    <Parallax className='parallax'  strength={-600}>
 <div className='frontpage'>
 <div className='main'>
 <div className='leftside'>

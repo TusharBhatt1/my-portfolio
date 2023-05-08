@@ -10,12 +10,12 @@ h3{
     text-shadow: 1px 1px black;
 }
 .projects{
-    background: #000;
+    background: #0c0202;
     display: flex;
     justify-content: start;
     align-items: center;
     padding: 10%;
-
+    
     .projectsone{
         flex: 1;
         display: flex;
@@ -27,12 +27,13 @@ h3{
             padding: 4%;
             text-decoration: none;
             font-family:Verdana, Geneva, Tahoma, sans-serif;
-            color: black;
-            background-color: rgb(245, 198, 8);
+            color: white;
+            background-color: #32e4d9;
             border-radius: 0px 10px 10px 0px;
             font-weight: bolder;
-            // display: flex;
-            // gap:10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
     .projectstwo{

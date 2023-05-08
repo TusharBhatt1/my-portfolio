@@ -10,7 +10,9 @@
     display: flex;
     height: 92vh;
     animation: fade 3s linear;
-
+    background-image: url("../Images/backgroundimage.jpg");
+    background-size: cover;
+     background: #000;
     @keyframes fade {
         from{
             opacity: 0;
@@ -27,12 +29,14 @@
        align-items: center;
        gap:20%;
        flex-direction: column;
-       font-size: 200%;
+      font-size: 150%;
+
         
        .left1{
         font-family: Georgia, 'Times New Roman', Times, serif;
         letter-spacing: 5px;
         text-shadow: 1px 1px white;
+        text-align: center;
        }
        .left2{
         text-align: center;
@@ -71,13 +75,14 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: start;
         gap:35%;
         font-family: cursive;
+
         
         .myself{
-            height: 40vh;
-            width: 25vw;
+            height: 12rem;
+            width: 12rem;
             border-radius: 50%;
         }
         p{
@@ -92,7 +97,7 @@
   
 }
 .footer{
-    color: white; 
+    color: rgb(15, 1, 1); 
     display: flex;
     justify-content: space-around;
     font-family: cursive;
