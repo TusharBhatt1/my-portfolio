@@ -2,13 +2,13 @@ import React from 'react'
 import { Fade } from 'react-awesome-reveal'
 import coding from "../Images/coding.jpg"
 import DataObjectIcon from '@mui/icons-material/DataObject';
-import "./SecondPage.scss"
+import "./MyWork.scss"
 
 export default function SecondPage() {
   return (
-    <Fade className='maincontainer' delay={1500} style={{marginTop:"10vh"}} direction='left' duration={2000} >
+    <Fade className='maincontainer' delay={1000}  direction='left' duration={1000} >
     <h3>
-      Projects
+      My Work 
     </h3>
     <div className='projects'>
        <div className='projectsone'>

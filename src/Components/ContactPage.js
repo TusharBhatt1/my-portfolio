@@ -13,7 +13,7 @@ const openlinkedin=()=>{
     window.open("https://www.linkedin.com/in/tushar-bhatt-59b64623b")
 }
  return(
-    <Fade direction='right' delay={2000}>
+    <Fade direction='right' delay={1000}>
       <div className='footerPage'>
            <h2>Contact</h2>
             <div className='contactdetails'>
