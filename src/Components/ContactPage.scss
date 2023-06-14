@@ -1,3 +1,28 @@
+.resume{
+    background: #000;
+    width: 10%;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    font-family: serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: rgb(9, 208, 239);
+    font-weight: bold;
+    font-family: cursive;
+    border-radius: 20px;
+    
+    a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+
+    }
+    
+}
+.resume:hover{
+    background: aqua
+}
 .footerPage{
     background-image: url("../Images/bg-contact.jpg");
     background-size: cover;
@@ -7,7 +32,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
+
+
     h2{
         text-align: center;
         margin-top: 5%;

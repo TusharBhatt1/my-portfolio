@@ -13,6 +13,10 @@ const openlinkedin=()=>{
     window.open("https://www.linkedin.com/in/tushar-bhatt-59b64623b")
 }
  return(
+    <>
+    <div className='resume'>
+    <a href='https://drive.google.com/file/d/1YTLQJntfqHiOjM_PiouNtTsSqTVcEHff/view?usp=sharing' target='blank' download={"MyResume"}>My Resume</a>
+    </div>
     <Fade direction='right' delay={1000}>
       <div className='footerPage'>
            <h2>Contact</h2>
@@ -34,4 +38,5 @@ const openlinkedin=()=>{
             
         </div>
         </Fade>
+        </>
      )}
