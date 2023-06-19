@@ -33,7 +33,7 @@ export default function SecondPage() {
         <>
         <img src={countryGuide} alt='project'/>
 
-        <a href='https://tusharbhatt1.github.io/Country_Guide_App/' target='blank'>JS - Country Guide <DataObjectIcon/></a>
+        <a href='https://tusharbhatt1.github.io/Country_Guide_App/' target='blank'>JS - Country Guide </a>
         </>
         </div>
         
