@@ -1,13 +1,13 @@
 import './App.css';
 import FrontPage from './Components/FrontPage';
-import TechStacks from './Components/TechStacks';
+import About from './Components/About';
 import MyWork from './Components/MyWork';
 import ContactPage from "./Components/ContactPage"
 function App() {
   return (
   <div className='App'>
   <FrontPage/>
-  <TechStacks/>
+  <About/>
   <MyWork/>
   <ContactPage/>
 
