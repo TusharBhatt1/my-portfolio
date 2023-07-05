@@ -6,7 +6,7 @@ import cryptobuddy from "../Images/CryptoBuddy.png"
 import ecommerce from "../Images/Ecommerce.png"
 import movie from "../Images/Movie.png"
 import countryGuide from "../Images/CountryGuide.png"
-
+import NewEcommerce from "../Images/New-Ecommerce.png"
 export default function SecondPage() {
   return (
     <>
@@ -17,6 +17,10 @@ export default function SecondPage() {
     
     <div className='projects'>
        <div className='projectsone'>
+       <>
+       <img src={NewEcommerce} alt='project'/>
+       <a href='https://new-ecommerce-five.vercel.app/' target='blank'>React - Ecommerce</a>
+       </>
        <>
        <img src={cryptobuddy} alt='project'/>
        <a href='https://cryptoweb-blond.vercel.app/' target='blank'>React - Cryto Buddy</a>

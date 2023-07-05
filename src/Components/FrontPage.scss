@@ -6,12 +6,15 @@
 }
 .frontpage{
    
+   
+
 .main{
     display: flex;
     height: 92vh;
     animation: fade 3s linear;
     background-image: url("../Images/backgroundimage.jpg");
     background-size: cover;
+    margin-top: 0;
     @keyframes fade {
         from{
             opacity: 0;
@@ -28,7 +31,7 @@
        align-items: center;
        gap:20%;
        flex-direction: column;
-      font-size: 150%;
+      font-size: 100%;
 
         
        .left1{

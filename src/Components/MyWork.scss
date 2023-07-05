@@ -35,7 +35,7 @@
             border: 1px solid black;
             padding: 2%;
             text-decoration: none;
-            font-family:serif;
+            font-family:Georgia, 'Times New Roman', Times, serif;
             color: white;
             background-color: rgb(19, 189, 201);
             border-radius: 0px 10px 10px 0px;
@@ -44,14 +44,16 @@
             margin: auto;
             text-align: center;
             border-bottom: 4px solid white;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
             letter-spacing: 4px;
-           
+            font-size: small;
+            
         }
         a:hover{
             background-color: rgb(5, 246, 246);
         }
     }
+    
   
 }
 }

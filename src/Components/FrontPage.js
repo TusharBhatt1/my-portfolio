@@ -20,12 +20,12 @@ export default function FrontPage() {
 <h3>
 <Typewriter options={{strings:"A React <br/>  Front End Developer",autoStart:true,loop:true}}/>
 </h3>
-<img className='img' height={"100vh"} width={"100vh"} src={logo}></img>
+<img className='img' height={"100vh"} width={"100vh"} alt='logo' src={logo}></img>
 </div>
 
 </div>
 <div className='rightside'>
-<img className='myself' src={myself}/>
+<img className='myself' src={myself} alt='Myself' />
 </div>
 
 </div>
