@@ -17,7 +17,7 @@ export default function Front() {
     <div className=' m-auto w-full block h-96 sm:h-screen sm:fixed bg-blue-500 text-white z-2 w-52 sm:w-80 font-serif flex font-semibold flex-col justify-center gap-4 items-center '>
 
         <img src={Myself} alt="Tushar Bhatt" className=' font-bold h-32 w-32 rounded-full'/>
-        <p className="text-3xl text-center font-bold">Tushar Bhatt</p>
+        <p className="text-4xl text-center font-bold">Tushar Bhatt</p>
         <p className="flex justify-center items-center text-lg" >Front End Engineer <WhatshotIcon className="text-orange-400 text-center "
         /> </p>
         
