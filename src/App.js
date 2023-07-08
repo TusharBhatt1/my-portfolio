@@ -1,16 +1,11 @@
 import './App.css';
-import FrontPage from './Components/FrontPage';
-import About from './Components/About';
-import MyWork from './Components/MyWork';
-import ContactPage from "./Components/ContactPage"
+import Main from './Components/Main';
+
+
 function App() {
   return (
   <div className='App'>
-  <FrontPage/>
-  <About/>
-  <MyWork/>
-  <ContactPage/>
-
+   <Main/>
   </div>
   )
 }

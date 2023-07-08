@@ -1,29 +1,32 @@
 import React from 'react'
-import "./About.scss"
+import MenuBookIcon from '@mui/icons-material/MenuBook';
+import FmdGoodIcon from '@mui/icons-material/FmdGood';
 
 export default function About() {
   return (
-
-    <div className='main'>
-    <h2>About</h2>      
-    <div className='about'>
-     <div>
-      Hello , this is <span className='span' >T</span>ushar <span className='span'>B</span>hatt. I am a 23 year old developer.<br/>
+   <div className='mt-7 p-2 text-start'>
+   <p className='font-bold text-3xl'>About</p>
+   
+     <div className='font-bold p-4 '>
+      Hello , I am a 23 year old developer.<br/>
       As a Front End developer, my expertise lies in developing front end web applications using the ReactJS library.
-      In addition to this , I am also proficient in other web technologies such as HTML, CSS, and JavaScript. 
+      <br/><br/>
       I have experience with various front-end frameworks and libraries also , including
-      </div>
-      <ul>
-      <li>HTML 5</li>
-      <li>JavaScript ES6</li>
-      <li>Redux</li>
-      <li>TypeScript</li>
-      <li>Tailwind CSS</li>
-      <li>SCSS SASS</li>
-      <li>Material UI and more</li>
-      </ul>
      
-    </div>
-    </div>
+      <p className='font-semibold  text-blue-700'>
+      HTML 5 ,
+      JavaScript ES6 ,
+      Redux ,
+      TypeScript ,
+      Tailwind CSS ,
+      SCSS SASS ,
+      Material UI and more.
+      </p> 
+      </div>
+      <div className='flex justify-between items-center font-serif text-green-500 text-center  font-bold text-xs sm:text-sm mt-4'>
+        <p><MenuBookIcon/> Pursuing - MCA </p>
+        <p><FmdGoodIcon/> Dehradun, Uttarakhand, India </p>
+      </div>
+      </div>
   )
 }
