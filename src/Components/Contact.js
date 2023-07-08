@@ -1,5 +1,6 @@
 import React from 'react'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
 
 
 export default function Contact() {
@@ -19,6 +20,9 @@ export default function Contact() {
        <LinkedInIcon  className=""/>
        </a>
        <p>+917617446649</p>
+       <a href="mailto:tusharbhatt0135@gmail.com" target="_blank" rel="noreferrer">
+       <MailOutlineIcon className='text-blue-500'/>
+       </a>
         </div>
       </div>
     </div>
