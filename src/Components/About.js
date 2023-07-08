@@ -7,7 +7,7 @@ export default function About() {
    <div className='mt-7 p-2 text-start'>
    <p className='font-bold text-3xl'>About</p>
    
-     <div className='font-bold p-4 '>
+     <div className='font-bold p-4 mt-2 '>
       Hello , I am a React Engineer of age 23 .<br/> <br/>
       As a Front End developer, my expertise lies in developing front end web applications using the ReactJS library.
       <br/><br/>
