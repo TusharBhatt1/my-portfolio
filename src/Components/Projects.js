@@ -6,9 +6,9 @@ export default function Projects() {
   return (
     <div className="p-2 mt-7">
 
-        <p className='font-bold text-3xl  mt-7 '>My Work</p>
+        <p className='font-bold text-3xl mt-12 '>My Work</p>
 
-        <div className="flex gap-7 flex-wrap justify-center items-center p-8 text-center font-bold font-serif ">
+        <div className="flex gap-7 flex-wrap justify-center items-center p-12 text-center font-bold font-serif ">
 
             <div className="border-b-4 border-blue-300 p-2 rounded-lg hover:border-blue-500 ">
             <a href="https://note-app-chi-liard.vercel.app/" target="_blank" rel="noreferrer">
