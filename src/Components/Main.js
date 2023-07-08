@@ -38,7 +38,7 @@ export default function Front() {
     </div>
 
     {/* SIDE BAR ENDS */}
-   <div className="ml-0 sm:ml-80">
+   <div className="ml-0 sm:ml-80 p-2">
    <About/>
    <Projects/>
    <Contact/>

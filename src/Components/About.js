@@ -23,7 +23,7 @@ export default function About() {
       Material UI and more.
       </p> 
       </div>
-      <div className='flex justify-between items-center font-serif text-green-500 text-center  font-bold text-xs sm:text-sm mt-4'>
+      <div className='flex justify-between items-center font-serif text-orange-500 text-center  font-bold text-xs sm:text-sm mt-4'>
         <p><MenuBookIcon/> Pursuing - MCA </p>
         <p><FmdGoodIcon/> Dehradun, Uttarakhand, India </p>
       </div>
