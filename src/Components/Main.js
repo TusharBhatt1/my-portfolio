@@ -13,7 +13,7 @@ export default function Front() {
     <div className="flex flex-col">
 
     {/* SIDE BAR */}
-    <div className="bg-black">
+    <div className="bg-blue-500">
     <div className=' m-auto block h-96 sm:h-screen sm:fixed bg-blue-500 text-white z-2 w-52 sm:w-80 font-serif flex font-semibold flex-col justify-center gap-4 items-center '>
 
         <img src={Myself} alt="Tushar Bhatt" className=' font-bold h-32 w-32 rounded-full'/>
