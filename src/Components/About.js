@@ -8,7 +8,7 @@ export default function About() {
    <p className='font-bold text-3xl'>About</p>
    
      <div className='font-bold p-4 '>
-      Hello , I am a React Engineer of 23 years.<br/>
+      Hello , I am a React Engineer of age 23 .<br/> <br/>
       As a Front End developer, my expertise lies in developing front end web applications using the ReactJS library.
       <br/><br/>
       I have experience with various front-end frameworks and libraries also , including
