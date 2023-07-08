@@ -11,7 +11,7 @@ export default function About() {
       Hello , I am a React Engineer of age 23 .<br/> <br/>
       As a Front End developer, my expertise lies in developing front end web applications using the ReactJS library.
       <br/><br/>
-      I have experience with various other technologies and languages also , such
+      I have experience with various other technologies and languages also , such as
      
       <p className='font-semibold  text-blue-700'>
       HTML 5 ,
