@@ -14,7 +14,7 @@ export default function Front() {
 
     {/* SIDE BAR */}
     <div className="bg-blue-500">
-    <div className=' m-auto block h-96 sm:h-screen sm:fixed bg-blue-500 text-white z-2 w-52 sm:w-80 font-serif flex font-semibold flex-col justify-center gap-4 items-center '>
+    <div className=' m-auto w-full block h-96 sm:h-screen sm:fixed bg-blue-500 text-white z-2 w-52 sm:w-80 font-serif flex font-semibold flex-col justify-center gap-4 items-center '>
 
         <img src={Myself} alt="Tushar Bhatt" className=' font-bold h-32 w-32 rounded-full'/>
         <p className="text-3xl text-center font-bold">Tushar Bhatt</p>
@@ -22,7 +22,7 @@ export default function Front() {
         /> </p>
         
         {/* Icons */}
-        <div className="flex gap-4">
+        <div className="flex gap-5">
 
        <a href="https://www.linkedin.com/in/tushar-bhatt-59b64623b" target="_blank" rel="noreferrer">
        <LinkedInIcon  className=""/>
