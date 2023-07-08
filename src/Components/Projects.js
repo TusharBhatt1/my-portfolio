@@ -13,7 +13,7 @@ export default function Projects() {
             <div className="border-b-8 border-blue-300 p-2 rounded-lg hover:border-blue-500 ">
             <a href="https://note-app-chi-liard.vercel.app/" target="_blank" rel="noreferrer">
                 <img src={NoteApp} className="" alt="NewEcommerce"/>
-               Advanced Note App
+               Advanced Notes App
             </a>
             </div>
             <div className="border-b-8 border-blue-300 p-2 rounded-lg hover:border-blue-500 ">

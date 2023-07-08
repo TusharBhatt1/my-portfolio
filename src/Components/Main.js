@@ -18,7 +18,7 @@ export default function Front() {
 
         <img src={Myself} alt="Tushar Bhatt" className=' font-bold h-32 w-32 rounded-full'/>
         <p className="text-3xl text-center font-bold">Tushar Bhatt</p>
-        <p className="flex justify-center items-center text-lg" >React Engineer <WhatshotIcon className="text-orange-400 text-center "
+        <p className="flex justify-center items-center text-lg" >Front End Engineer <WhatshotIcon className="text-orange-400 text-center "
         /> </p>
         
         {/* Icons */}
