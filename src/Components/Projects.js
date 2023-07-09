@@ -10,26 +10,26 @@ export default function Projects() {
 
         <div className="flex gap-12 flex-wrap justify-center items-center p-12 text-center font-bold font-serif ">
 
-            <div className="border-4 border-black p-2 rounded-lg hover:bg-blue-400 ">
+            <div className="border-b-4 border-black p-2 rounded-lg hover:bg-blue-500 hover:text-white ">
                  <a href="https://cryptoweb-blond.vercel.app/" target="_blank" rel="noreferrer">
                 <img src={CryptoBuddy} className="h-auto w-auto" alt="NewEcommerce"/>
                 React Crypto
                 </a>
             </div>
-            <div className="border-4 border-black p-2 rounded-lg hover:bg-blue-400 ">
+            <div className="border-b-4 border-black p-2 rounded-lg hover:bg-blue-500 hover:text-white">
             <a href="https://note-app-chi-liard.vercel.app/" target="_blank" rel="noreferrer">
                 <img src={NoteApp} className="" alt="NewEcommerce"/>
                Advanced Notes App
             </a>
             </div>
-            <div className="border-4 border-black p-2 rounded-lg hover:bg-blue-400 ">
+            <div className="border-b-4 border-black p-2 rounded-lg hover:bg-blue-500 hover:text-white">
             <a href="https://new-ecommerce-five.vercel.app/" target="_blank" rel="noreferrer">
                 <img src={NewEcommerce} className="" alt="NewEcommerce"/>
                React Ecommerce
             </a>
             </div>
            
-            <div className="border-4 border-black p-2 rounded-lg hover:bg-blue-400 ">
+            <div className="border-b-4 border-black p-2 rounded-lg hover:bg-blue-500 hover:text-white">
             <a href="https://myecommerce-pi.vercel.app/" target="_blank" rel="noreferrer">
                 <img src={Ecommerce} className="h-auto w-auto" alt="NewEcommerce"/>
                React Ecommerce</a>
