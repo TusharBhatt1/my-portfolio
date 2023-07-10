@@ -1,6 +1,7 @@
 import React from 'react'
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import FmdGoodIcon from '@mui/icons-material/FmdGood';
+import ArrowDropDownCircleIcon from '@mui/icons-material/ArrowDropDownCircle';
 
 export default function About() {
   return (
@@ -24,8 +25,12 @@ export default function About() {
       </p> 
       </div>
       <div className='flex justify-between items-center font-serif text-orange-500 text-center  font-bold text-xs sm:text-sm mt-7'>
-        <p><MenuBookIcon/> Pursuing - MCA <span className='text-orange-300 font-mono'>(Non-Regular)</span> </p>
+        <p><MenuBookIcon/> Pursuing - MCA </p>
         <p><FmdGoodIcon/> Dehradun, Uttarakhand, India </p>
+      </div>
+      <div className=' animate-bounce flex justify-between mt-12'>
+    <ArrowDropDownCircleIcon/>
+    <ArrowDropDownCircleIcon/>
       </div>
       </div>
   )
