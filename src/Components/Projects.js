@@ -4,7 +4,7 @@ import Ecommerce from "../Images/Ecommerce.png"
 import NoteApp from "../Images/Note-App.png"
 export default function Projects() {
   return (
-    <div className="p-2 mt-4">
+    <div className="p-2 mt-2">
 
         <p className='font-bold text-3xl mt-12 '>My Work</p>
 
