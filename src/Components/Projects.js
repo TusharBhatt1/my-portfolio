@@ -1,5 +1,5 @@
-import {Netflix} from "../Images/Clone (3).png"
-import {ChatRoom} from "../Images/Clone (4).png"
+import {Netflix} from "../Images/Netflix.png"
+import {ChatRoom} from "../Images/ChatRoom.png"
 import NewEcommerce from "../Images/New-Ecommerce.png"
 import CryptoBuddy from "../Images/CryptoBuddy.png"
 import Ecommerce from "../Images/Ecommerce.png"
