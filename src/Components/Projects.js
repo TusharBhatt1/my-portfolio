@@ -1,5 +1,5 @@
 import {NetflixImage} from "../Images/Netflix.png"
-import {ChatRoom} from "../Images/ChatRoom.png"
+import {ChatRoomApp} from "../Images/ChatRoom.png"
 import NewEcommerce from "../Images/New-Ecommerce.png"
 import CryptoBuddy from "../Images/CryptoBuddy.png"
 import Ecommerce from "../Images/Ecommerce.png"
@@ -20,7 +20,7 @@ export default function Projects() {
             </div>
             <div className="border-b-4 border-black p-2 rounded-lg hover:bg-blue-500 hover:text-white ">
                  <a href="https://chat-room-dc6ea.web.app/" target="_blank" rel="noreferrer">
-                <img src={ChatRoom} className="h-auto w-auto" alt="ChatRoom"/>
+                <img src={ChatRoomApp} className="h-auto w-auto" alt="ChatRoom"/>
                 Chat Room
                 </a>
             </div>
