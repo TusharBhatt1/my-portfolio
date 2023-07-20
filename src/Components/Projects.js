@@ -1,4 +1,4 @@
-import {Netflix} from "../Images/Netflix.png"
+import {NetflixImage} from "../Images/Netflix.png"
 import {ChatRoom} from "../Images/ChatRoom.png"
 import NewEcommerce from "../Images/New-Ecommerce.png"
 import CryptoBuddy from "../Images/CryptoBuddy.png"
@@ -14,7 +14,7 @@ export default function Projects() {
 
             <div className="border-b-4 border-black p-2 rounded-lg hover:bg-blue-500 hover:text-white ">
                  <a href="https://net-flix-7ewm.vercel.app/" target="_blank" rel="noreferrer">
-                <img src={Netflix} className="h-auto w-auto" alt="Netflix"/>
+                <img src={NetflixImage} className="h-auto w-auto" alt="Netflix"/>
                 Netflix
                 </a>
             </div>
