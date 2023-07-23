@@ -4,15 +4,17 @@ import NewEcommerce from "../Images/New-Ecommerce.png"
 import CryptoBuddy from "../Images/CryptoBuddy.png"
 import Ecommerce from "../Images/Ecommerce.png"
 import NoteApp from "../Images/Note-App.png"
+import "./Project.css"
+
 export default function Projects() {
   return (
     <div className="p-2 mt-2">
 
         <p className='font-bold text-3xl mt-12 '>My Work</p>
 
-        <div className="flex gap-12 flex-wrap justify-center items-center p-12 text-center font-bold font-serif ">
+        <div className="images-container flex gap-12 flex-wrap justify-center items-center p-12 text-center font-bold font-serif ">
 
-            <div className="border-b-4 border-black p-2 rounded-lg hover:bg-blue-500 hover:text-white ">
+            <div className="border-b-4 border-black  rounded-lg hover:bg-blue-500 hover:text-white ">
                  <a href="https://net-flix-7ewm.vercel.app/" target="_blank" rel="noreferrer">
                 <img src={NetflixImage} className="h-auto w-auto" alt="Netflix"/>
                 Netflix

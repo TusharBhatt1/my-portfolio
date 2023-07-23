@@ -1,0 +1,7 @@
+.images-container div:hover img{
+        scale: 1.15;
+        transition: all 1s ease;
+    }
+.images-container div{
+    overflow: hidden;
+    }    
