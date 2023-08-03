@@ -17,7 +17,7 @@ export default function Projects() {
 
             <div className="border-b-4 border-black  rounded-lg hover:bg-blue-500 hover:text-white ">
                  <a href="https://instagroww.vercel.app/" target="_blank" rel="noreferrer">
-                <img src={Instagroww} className="h-auto w-auto" alt="Netflix"/>
+                <img src={Instagroww} className="h-auto w-auto" alt="Instagroww"/>
                 InstaGroww - NextJS + Redux
                 </a>
             </div>
