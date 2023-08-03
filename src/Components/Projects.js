@@ -4,6 +4,7 @@ import NewEcommerce from "../Images/New-Ecommerce.png"
 import CryptoBuddy from "../Images/CryptoBuddy.png"
 import Ecommerce from "../Images/Ecommerce.png"
 import NoteApp from "../Images/Note-App.png"
+import Instagroww from "../Images/Screenshot (124).png"
 import "./Project.css"
 
 export default function Projects() {
@@ -14,6 +15,12 @@ export default function Projects() {
 
         <div className="images-container flex gap-12 flex-wrap justify-center items-center p-12 text-center font-bold font-serif ">
 
+            <div className="border-b-4 border-black  rounded-lg hover:bg-blue-500 hover:text-white ">
+                 <a href="https://instagroww.vercel.app/" target="_blank" rel="noreferrer">
+                <img src={Instagroww} className="h-auto w-auto" alt="Netflix"/>
+                InstaGroww - NextJS + Redux
+                </a>
+            </div>
             <div className="border-b-4 border-black  rounded-lg hover:bg-blue-500 hover:text-white ">
                  <a href="https://net-flix-7ewm.vercel.app/" target="_blank" rel="noreferrer">
                 <img src={NetflixImage} className="h-auto w-auto" alt="Netflix"/>
