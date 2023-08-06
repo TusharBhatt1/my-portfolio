@@ -5,16 +5,18 @@ import CryptoBuddy from "../Images/CryptoBuddy.png"
 import Ecommerce from "../Images/Ecommerce.png"
 import NoteApp from "../Images/Note-App.png"
 import Instagroww from "../Images/Screenshot (124).png"
+import { Fade, Slide } from "react-awesome-reveal";
+
 import "./Project.css"
 
 export default function Projects() {
   return (
-    <div className="p-2 mt-2">
+    <div className="p-2 mt-7">
 
         <p className='font-bold text-3xl mt-12 '>My Work</p>
 
-        <div className="images-container flex gap-12 flex-wrap justify-center items-center p-12 text-center font-bold font-serif ">
-
+        <div className="images-container flex gap-20 flex-wrap justify-center items-center p-12 text-center font-bold font-serif ">
+        <Slide triggerOnce={true}>
             <div className="border-b-4 border-black  rounded-lg hover:bg-blue-500 hover:text-white ">
                  <a href="https://instagroww.vercel.app/" target="_blank" rel="noreferrer">
                 <img src={Instagroww} className="h-auto w-auto" alt="Instagroww"/>
@@ -58,6 +60,7 @@ export default function Projects() {
                React Ecommerce</a>
             </div>
            
+            </Slide> 
            
            
         </div>

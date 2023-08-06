@@ -15,7 +15,7 @@ export default function About() {
       I have experience with various other technologies and languages also , such as
      
       <p className='font-semibold  text-blue-700'>
-      React JS, NextJS
+      React JS, NextJS ,
       HTML 5 ,
       JavaScript ES6 ,
       Redux ,
@@ -29,8 +29,8 @@ export default function About() {
         <p><FmdGoodIcon/> Dehradun, Uttarakhand, India </p>
       </div>
       <div className=' animate-bounce flex justify-between mt-12'>
-    <ArrowDropDownCircleIcon/>
-    <ArrowDropDownCircleIcon/>
+       <ArrowDropDownCircleIcon/>
+       <ArrowDropDownCircleIcon/>
       </div>
       </div>
   )
