@@ -13,7 +13,7 @@ export default function Projects() {
   return (
     <div className="p-2 mt-7">
 
-        <p className='font-bold text-3xl mt-12 '>My Work</p>
+        <p className='textShadow font-bold text-3xl mt-12 '>My Work</p>
 
         <div className="images-container flex gap-20 flex-wrap justify-center items-center p-12 text-center font-bold font-serif ">
         <Slide duration={2000} triggerOnce={true}>
