@@ -9,7 +9,7 @@ export default function About() {
    <p className='textShadow font-bold text-3xl	'>About</p>
    
      <div className='font-bold p-4 mt-2 '>
-     <p className='italic text-slate-400'>&lt;div&gt;</p>
+     <p className='italic text-slate-400 mb-2'>&lt;div&gt;</p>
   
       <p>  Hello, I am a 23-year-old Front-End Engineer with a strong focus on developing web applications using React and Next.
       <br/><br/>
@@ -29,7 +29,7 @@ export default function About() {
       <br/>
   
 
-      <p className='italic text-slate-400'>&lt;/div&gt;</p>
+      <p className='italic text-slate-400 mt-2 font-cursive'>&lt;/div&gt;</p>
 
       </div>
       <div className='flex justify-between items-center font-serif text-orange-500 text-center  font-bold text-xs sm:text-sm mt-7'>
