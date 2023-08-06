@@ -15,10 +15,10 @@ export default function About() {
       I have experience with various other technologies and languages also , such as
      
       <p className='font-semibold  text-blue-700'>
+      React JS, NextJS
       HTML 5 ,
       JavaScript ES6 ,
       Redux ,
-      TypeScript ,
       Tailwind CSS ,
       SCSS SASS ,
       Material UI and more.
