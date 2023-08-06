@@ -8,11 +8,11 @@ export default function Contact() {
     <div>
       <p className='font-bold text-3xl p-2'>Open To</p>
       <div className='p-7 font-bold '>
-        <p className='text-blue-800'>I am open to a role which allows me to apply my skills and knowledge in React to create cutting-edge web applications <br/><br/>
+        <p className='text-blue-800'>I am open to a role which allows me to apply my skills and knowledge in Front End to create cutting-edge web applications <br/><br/>
         As a fresher in this field, I understand that I have a lot to learn, 
-        but I am ready to embrace the challenges and dedicate myself to mastering React and its ecosystem. 
+        but I am ready to embrace the challenges and dedicate myself to mastering React + Next and its ecosystem. 
         I believe in the power of continuous learning and 
-        staying up-to-date with the latest trends and best practices in the React community.</p>
+        staying up-to-date with the latest trends and best practices in the Front End community.</p>
 
         <div className='flex justify-center flex-col gap-2 items-center p-4'>
         <p className='text-center font-bold text-3xl mt-7 mb-4'>Contact</p>

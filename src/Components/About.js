@@ -9,13 +9,13 @@ export default function About() {
    <p className='font-bold text-3xl'>About</p>
    
      <div className='font-bold p-4 mt-4 '>
-      Hello , I am a React Engineer of age 23 .<br/> <br/>
-      As a Front End developer, my expertise lies in developing front end web applications using the ReactJS library.
+      Hello , I am a Front End Engineer of age 23 .<br/> <br/>
+      My expertise lies in developing front end web applications using React and Next .
       <br/><br/>
       I have experience with various other technologies and languages also , such as
      
       <p className='font-semibold  text-blue-700'>
-      React JS, NextJS ,
+      React JS, Next JS ,
       HTML 5 ,
       JavaScript ES6 ,
       Redux ,
