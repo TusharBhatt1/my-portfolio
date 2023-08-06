@@ -4,6 +4,12 @@
     }
 .images-container div{
     overflow: hidden;
-    width:  50vw;
+   
     }    
+
+    @media (min-width:500px) {
+        .images-container div{
+        width:  50vw;
+        }
+    }
 
