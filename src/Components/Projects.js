@@ -16,7 +16,7 @@ export default function Projects() {
         <p className='font-bold text-3xl mt-12 '>My Work</p>
 
         <div className="images-container flex gap-20 flex-wrap justify-center items-center p-12 text-center font-bold font-serif ">
-        <Slide fraction={.5} duration={2000} triggerOnce={true}>
+        <Slide duration={2000} triggerOnce={true}>
             <div className="border-b-4 border-black  rounded-lg hover:bg-blue-500 hover:text-white ">
                  <a href="https://instagroww.vercel.app/" target="_blank" rel="noreferrer">
                 <img src={Instagroww} className="h-auto w-auto" alt="Instagroww"/>
