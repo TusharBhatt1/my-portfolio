@@ -5,7 +5,7 @@ import CryptoBuddy from "../Images/CryptoBuddy.png"
 import Ecommerce from "../Images/Ecommerce.png"
 import NoteApp from "../Images/Note-App.png"
 import Instagroww from "../Images/Screenshot (124).png"
-import { Fade, Slide } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 
 import "./Project.css"
 
