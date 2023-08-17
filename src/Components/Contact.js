@@ -9,6 +9,10 @@ export default function Contact() {
  
   return (
     <div>
+             <button style={{padding:"10px",background:"black",borderRadius:"10px",display:"flex",letterSpacing:"2px",fontSize:"1.3rem",margin:"auto",marginTop:"25px"}}>
+             <a style={{fontFamily:"cursive",color:"white"}} href="https://drive.google.com/file/d/1SZ5HUwigPGHu5iDHwFsVDhTY2BUtBgE8/view" target='_blank' rel="noreferrer">My Resume</a>
+             </button>  
+
       <p className='textShadow font-bold text-3xl p-2'>Open To</p>
       <div className='p-7 font-bold '>
       <p className='italic text-slate-400 mb-2'>&lt;&gt;</p>

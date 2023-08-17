@@ -62,7 +62,6 @@ export default function Projects() {
            
             </Slide> 
            
-           
         </div>
     </div>
   )
