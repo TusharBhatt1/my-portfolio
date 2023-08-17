@@ -6,17 +6,25 @@ import Ecommerce from "../Images/Ecommerce.png"
 import NoteApp from "../Images/Note-App.png"
 import Instagroww from "../Images/Screenshot (124).png"
 import { Slide } from "react-awesome-reveal";
+import { motion,useScroll } from "framer-motion"
+
 
 import "./Project.css"
 
 export default function Projects() {
+
+ 
   return (
     <div className="p-2 mt-7">
 
         <p className='textShadow font-bold text-3xl mt-12 '>My Work</p>
 
+        {/* <motion.div variants={{hidden:{opacity:0.5,y:700}, visible:{opacity:.1,y:0}}} initial="hidden" animate="visible"
+        transition={{delay:2}} */}
+
         <div className="images-container flex gap-20 flex-wrap justify-center items-center p-12 text-center font-bold font-serif ">
-        <Slide duration={2000} triggerOnce={true}>
+    
+    
             <div className="border-b-4 border-black  rounded-lg hover:bg-blue-500 hover:text-white ">
                  <a href="https://instagroww.vercel.app/" target="_blank" rel="noreferrer">
                 <img src={Instagroww} className="h-auto w-auto" alt="Instagroww"/>
@@ -60,7 +68,6 @@ export default function Projects() {
                React Ecommerce</a>
             </div>
            
-            </Slide> 
            
         </div>
     </div>
