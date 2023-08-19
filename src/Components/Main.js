@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 
 export default function Front() {
   return (
-    <div className="  flex flex-col">
+    <div className="  flex flex-col bg-blue-500">
 
     {/* SIDE BAR */}
     
@@ -38,7 +38,7 @@ export default function Front() {
         </motion.div>
 
     {/* SIDE BAR ENDS */}
-   <div className="ml-0 sm:ml-80 p-2">
+   <div className="ml-0 sm:ml-80 p-2 bg-white">
    <About/>
    <Projects/>
    <Contact/>
