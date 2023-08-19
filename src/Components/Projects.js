@@ -12,22 +12,22 @@ import { useInView } from "react-intersection-observer"
 import { useAnimation } from "framer-motion"
 export default function Projects() {
 
-    const {ref, inView}= useInView({threshold:0.2})
+    const {ref, inView}= useInView({threshold:0.1})
     const animation = useAnimation()
 
     useEffect(()=>{
         if(inView)
         {
             animation.start({
-                x:0,
-                transition:{
-                    type:"spring",duration:2, bounce:0.3
-                }
+                opacity:1,
+                // transition:{
+                //     type:"spring",duration:4, bounce:0.3
+                // }
             })
         }
         if(!inView)
         {
-            animation.start({x:"-100vw"})
+            animation.start({opacity:0})
         }
 
     },[inView])
