@@ -7,7 +7,7 @@ import {motion} from "framer-motion"
 
 export default function About() {
   return (
-   <motion.div initial={{x:-100}} animate={{x:0, transition:{duration:0.8}}} className='mt-7 z-5 p-2 text-start'>
+   <motion.div initial={{y:-100}} animate={{y:0, transition:{duration:1}}} className='mt-7 p-2 text-start'>
    <p className='textShadow font-bold text-3xl	'>About</p>
    
      <div className='font-bold p-4 mt-2 '>

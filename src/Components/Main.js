@@ -15,7 +15,7 @@ export default function Front() {
 
     {/* SIDE BAR */}
     
-      <motion.div initial={{y:-100,opacity:0.2}} animate={{y:0,opacity:1,transition:{duration:0.8}}} className='m-auto w-full block h-96 sm:h-screen sm:fixed bg-blue-500 text-white z-2 w-52 sm:w-80 font-serif flex font-semibold flex-col justify-center gap-5 items-center '>
+      <motion.div initial={{x:-100,opacity:0.2}} animate={{x:0,opacity:1,transition:{duration:1}}} className='m-auto w-full block h-96 sm:h-screen sm:fixed bg-blue-500 text-white z-2 w-52 sm:w-80 font-serif flex font-semibold flex-col justify-center gap-5 items-center '>
         <img src={Myself} alt="Tushar Bhatt" className=' font-bold h-32 w-32 rounded-full'/>
         <p className="text-4xl text-center font-bold">Tushar Bhatt</p>
         <p className="flex justify-center items-center text-lg" >Front End Engineer <WhatshotIcon className="text-orange-400 text-center "
