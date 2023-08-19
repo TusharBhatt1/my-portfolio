@@ -12,7 +12,7 @@ import { useInView } from "react-intersection-observer"
 import { useAnimation } from "framer-motion"
 export default function Projects() {
 
-    const {ref, inView}= useInView({threshold:"0.2"})
+    const {ref, inView}= useInView({threshold:0.1})
     const animation = useAnimation()
 
     useEffect(()=>{
