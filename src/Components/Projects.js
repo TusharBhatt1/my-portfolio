@@ -19,15 +19,15 @@ export default function Projects() {
         if(inView)
         {
             animation.start({
-                opacity:1,
-                // transition:{
-                //     type:"spring",duration:4, bounce:0.3
-                // }
+                y:0,opacity:1,
+                transition:{
+                    type:"spring",duration:2, bounce:0.3
+                }
             })
         }
         if(!inView)
         {
-            animation.start({opacity:0})
+            animation.start({y:"8vw",opacity:0})
         }
 
     },[inView])

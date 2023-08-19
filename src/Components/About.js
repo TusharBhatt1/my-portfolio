@@ -2,10 +2,12 @@ import React from 'react'
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import FmdGoodIcon from '@mui/icons-material/FmdGood';
 import ArrowDropDownCircleIcon from '@mui/icons-material/ArrowDropDownCircle';
+import {motion} from "framer-motion"
+
 
 export default function About() {
   return (
-   <div className='mt-7 p-2 text-start'>
+   <motion.div initial={{y:-100}} animate={{y:0, transition:{duration:0.5}}} className='mt-7 p-2 text-start'>
    <p className='textShadow font-bold text-3xl	'>About</p>
    
      <div className='font-bold p-4 mt-2 '>
@@ -40,6 +42,6 @@ export default function About() {
        <ArrowDropDownCircleIcon/>
        <ArrowDropDownCircleIcon/>
       </div>
-      </div>
+      </motion.div>
   )
 }
