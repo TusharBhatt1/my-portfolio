@@ -7,6 +7,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import About from "./About";
 import Projects from './Projects';
 import Contact from "./Contact";
+import { motion } from "framer-motion";
 
 export default function Front() {
   return (
@@ -14,8 +15,7 @@ export default function Front() {
 
     {/* SIDE BAR */}
     
-    <div className='m-auto z-10 w-full block h-96 sm:h-screen sm:fixed bg-blue-500 text-white z-2 w-52 sm:w-80 font-serif flex font-semibold flex-col justify-center gap-5 items-center '>
-
+      <motion.div initial={{x:-100,opacity:0.2}} animate={{x:0,opacity:1,transition:{duration:0.5}}} className='m-auto z-10 w-full block h-96 sm:h-screen sm:fixed bg-blue-500 text-white z-2 w-52 sm:w-80 font-serif flex font-semibold flex-col justify-center gap-5 items-center '>
         <img src={Myself} alt="Tushar Bhatt" className=' font-bold h-32 w-32 rounded-full'/>
         <p className="text-4xl text-center font-bold">Tushar Bhatt</p>
         <p className="flex justify-center items-center text-lg" >Front End Engineer <WhatshotIcon className="text-orange-400 text-center "
@@ -35,7 +35,7 @@ export default function Front() {
        </a>
 
         </div>
-    </div>
+        </motion.div>
 
     {/* SIDE BAR ENDS */}
    <div className="ml-0 sm:ml-80 p-2">
