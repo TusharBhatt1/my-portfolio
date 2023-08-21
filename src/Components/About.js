@@ -35,7 +35,7 @@ export default function About() {
 
       </div>
       <div className='flex justify-between items-center font-serif text-orange-500 text-center  font-bold text-xs sm:text-sm mt-7'>
-        <span><MenuBookIcon/> Pursuing - MCA </span>
+        <span><MenuBookIcon/> MCA 2022-24</span>
         <span><FmdGoodIcon/> Dehradun, Uttarakhand, India </span>
       </div>
       <div className=' animate-bounce flex justify-between mt-12'>
