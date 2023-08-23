@@ -4,6 +4,7 @@ import WhatshotIcon from '@mui/icons-material/Whatshot';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import CodeIcon from '@mui/icons-material/Code';
 import About from "./About";
 import Projects from './Projects';
 import Contact from "./Contact";
@@ -11,7 +12,7 @@ import { motion } from "framer-motion";
 
 export default function Front() {
   return (
-    <div className="  flex flex-col bg-blue-500">
+    <div className="  flex flex-col bg-blue-300">
 
     {/* SIDE BAR */}
     
@@ -33,12 +34,15 @@ export default function Front() {
        <a href="https://github.com/TusharBhatt1" target="_blank" rel="noreferrer">
        <GitHubIcon/>
        </a>
+       <a href="https://leetcode.com/tusharbhatt0135" target="_blank" rel="noreferrer">
+       <CodeIcon/>
+       </a>
 
         </div>
         </motion.div>
 
     {/* SIDE BAR ENDS */}
-   <div className="ml-0 sm:ml-80 p-2 bg-white">
+   <div className="ml-0 sm:ml-80 p-2 bg-blue-50">
    <About/>
    <Projects/>
    <Contact/>

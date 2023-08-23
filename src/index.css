@@ -1,14 +1,16 @@
 body {
   margin: 0;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   letter-spacing: 2px;
   line-height: 2em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 .textShadow{
   text-shadow: 2px 2px 2px rgba(92, 172, 192, 0.785)
 }
+
 
 
 code {

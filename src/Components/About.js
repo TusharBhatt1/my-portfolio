@@ -17,14 +17,16 @@ export default function About() {
       <br/><br/>
        I have a diverse skill set and hands-on experience with various other technologies and languages, enabling me to create robust and dynamic user interfaces.
       <br/><br/>
-      My technology stack includes :
+      My field of expertise includes :
       </p>
       <span className='font-semibold  text-blue-700'>
       React JS, Next JS ,
+      Problem Solving , 
       HTML 5 ,
       JavaScript ES6 ,
       Redux ,
       Tailwind CSS ,
+      Firebase ,
       SCSS SASS ,
       Material UI and more.
       </span> 
