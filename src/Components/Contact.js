@@ -10,7 +10,7 @@ export default function Contact() {
   return (
     <div>
              <button style={{boxShadow:"3px 3px 3px  blue",padding:"10px",background:"black",borderRadius:"10px",display:"flex",letterSpacing:"2px",fontSize:"1.3rem",margin:"auto",marginTop:"25px",marginBottom:"25px"}}>
-             <a style={{fontFamily:"cursive",color:"white"}} href="https://drive.google.com/file/d/1mUwzrd_bD25uH2drmn38-2HgBsZvWi08/view?usp=sharing" target='_blank' rel="noreferrer">My Resume</a>
+             <a style={{fontFamily:"cursive",color:"white"}} href="https://drive.google.com/file/d/1Ie4u_Zskd9-P3ubCzsyARtHu4Zfd4KEg/view?usp=sharing" target='_blank' rel="noreferrer">My Resume</a>
              </button>  
 
       <p className='textShadow font-bold text-3xl p-2'>Open To</p>
