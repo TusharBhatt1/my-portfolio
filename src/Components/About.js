@@ -6,6 +6,17 @@ import {motion} from "framer-motion"
 
 
 export default function About() {
+
+
+  const skills=["ReactJS", "NextJS" ,
+    "Problem_Solving" , 
+    "HTML5" ,
+    "JavaScriptES6" ,
+    "Redux" ,
+    "Tailwind" ,"CSS" ,
+    "Firebase" ,
+    "SCSS", "SASS" ,
+    "Material_UI"]
   return (
    <motion.div initial={{y:-100}} animate={{y:0, transition:{duration:1}}} className='mt-7 p-2 text-start'>
    <p className='textShadow font-bold text-3xl	'>About</p>
@@ -19,16 +30,8 @@ export default function About() {
       <br/><br/>
       My field of expertise includes :
       </p>
-      <span className='font-semibold  text-blue-700'>
-      React JS, Next JS ,
-      Problem Solving , 
-      HTML 5 ,
-      JavaScript ES6 ,
-      Redux ,
-      Tailwind CSS ,
-      Firebase ,
-      SCSS SASS ,
-      Material UI and more.
+      <span className='flex mt-4 gap-4 flex-wrap font-semibold text-white '>
+      {skills.map(skill=><p className=' rounded-lg p-1 bg-blue-500'>{skill}</p>)}
       </span> 
       <br/>
   
