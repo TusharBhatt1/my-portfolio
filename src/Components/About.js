@@ -21,7 +21,7 @@ export default function About() {
    <motion.div initial={{y:-100}} animate={{y:0, transition:{duration:1}}} className='mt-7 p-2 text-start'>
    <p className='textShadow font-bold text-3xl	'>About</p>
    
-     <div className='font-bold p-4 mt-2 bg-red-200  '>
+     <div className='font-bold p-4 mt-2 bg-yellow-100 rounded-xl  '>
      <p className='italic text-slate-400 mb-2'>&lt;&gt;</p>
   
       <p>  Hello, I am a 23-year-old Front-End Engineer with a strong focus on developing web applications using React and Next.
