@@ -17,7 +17,7 @@ export default function Contact() {
       <div className='p-7 font-bold '>
       <p className='italic text-slate-400 mb-2'>&lt;&gt;</p>
 
-        <p className='text-blue-800'>I am open to a role which allows me to apply my skills and knowledge in Front End to create cutting-edge web applications <br/><br/>
+        <p className='text-blue-200'>I am open to a role which allows me to apply my skills and knowledge in Front End to create cutting-edge web applications <br/><br/>
         As a fresher in this field, I understand that I have a lot to learn, 
         but I am ready to embrace the challenges and dedicate myself to mastering React + Next and its ecosystem. 
         I believe in the power of continuous learning and 
@@ -30,7 +30,7 @@ export default function Contact() {
         <a className='text-blue-500' href="https://www.linkedin.com/in/tushar-bhatt-59b64623b" target="_blank" rel="noreferrer">
        <LinkedInIcon  className=""/>
        </a>
-       <p>+917617446649</p>
+       <p className='text-white'>+917617446649</p>
        <a href="mailto:tusharbhatt0135@gmail.com" target="_blank" rel="noreferrer">
        <MailOutlineIcon className='text-blue-500'/>
        </a>

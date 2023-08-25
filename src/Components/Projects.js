@@ -39,51 +39,51 @@ export default function Projects() {
 
         
 
-        <div ref={ref} className="images-container flex gap-20 flex-wrap justify-center items-center p-12 text-center font-bold font-serif ">
+        <div ref={ref} className="images-container text-white flex gap-20 flex-wrap justify-center items-center p-12 text-center font-bold font-serif ">
     
     
            <motion.div 
            animate={animation}
-            className="border-2 border-blue-200 p-2 rounded-xl hover:bg-blue-500 hover:text-white">
+            className="border-b-4 border-blue-300 p-2 rounded-xl hover:bg-blue-500 hover:text-white">
                  <a href="https://instagroww.vercel.app/" target="_blank" rel="noreferrer">
                 <img src={Instagroww} className="h-auto w-auto" alt="Instagroww"/>
                 InstaGroww - NextJS + Redux
                 </a>
             </motion.div>
             <motion.div 
-           animate={animation} className="border-2 border-blue-200  rounded-lg hover:bg-blue-500 hover:text-white ">
+           animate={animation} className="border-b-4 border-blue-300  rounded-lg hover:bg-blue-500 hover:text-white ">
                  <a href="https://net-flix-7ewm.vercel.app/" target="_blank" rel="noreferrer">
                 <img src={NetflixImage} className="h-auto w-auto" alt="Netflix"/>
                 Netflix
                 </a>
             </motion.div>
-         <motion.div animate={animation} className="border-2 border-blue-200 p-2 rounded-lg hover:bg-blue-500 hover:text-white ">
+         <motion.div animate={animation} className="border-b-4 border-blue-300 p-2 rounded-lg hover:bg-blue-500 hover:text-white ">
                  <a href="https://chat-room-dc6ea.web.app/" target="_blank" rel="noreferrer">
                 <img src={ChatRoomApp} className="h-auto w-auto" alt="ChatRoom"/>
                 Chat Room
                 </a>
             </motion.div>
 
-            <motion.div animate={animation} className="border-2 border-blue-200 p-2 rounded-lg hover:bg-blue-500 hover:text-white ">
+            <motion.div animate={animation} className="border-b-4 border-blue-300 p-2 rounded-lg hover:bg-blue-500 hover:text-white ">
                  <a href="https://cryptoweb-blond.vercel.app/" target="_blank" rel="noreferrer">
                 <img src={CryptoBuddy} className="h-auto w-auto" alt="NewEcommerce"/>
                 React Crypto
                 </a>
             </motion.div>
-            <motion.div animate={animation} className="border-2 border-blue-200 p-2 rounded-lg hover:bg-blue-500 hover:text-white">
+            <motion.div animate={animation} className="border-b-4 border-blue-300 p-2 rounded-lg hover:bg-blue-500 hover:text-white">
             <a href="https://note-app-chi-liard.vercel.app/" target="_blank" rel="noreferrer">
                 <img src={NoteApp} className="" alt="NewEcommerce"/>
                Advanced Notes App
             </a>
             </motion.div>
-            <motion.div animate={animation}  className="border-2 border-blue-200 p-2 rounded-lg hover:bg-blue-500 hover:text-white">
+            <motion.div animate={animation}  className="border-b-4 border-blue-300 p-2 rounded-lg hover:bg-blue-500 hover:text-white">
             <a href="https://new-ecommerce-five.vercel.app/" target="_blank" rel="noreferrer">
                 <img src={NewEcommerce} className="" alt="NewEcommerce"/>
                React Ecommerce
             </a>
             </motion.div>
            
-            <motion.div animate={animation} className="border-2 border-blue-200 p-2 rounded-lg hover:bg-blue-500 hover:text-white">
+            <motion.div animate={animation} className="border-b-4 border-blue-300 p-2 rounded-lg hover:bg-blue-500 hover:text-white">
             <a href="https://myecommerce-pi.vercel.app/" target="_blank" rel="noreferrer">
                 <img src={Ecommerce} className="h-auto w-auto" alt="NewEcommerce"/>
                React Ecommerce</a>
