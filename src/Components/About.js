@@ -18,10 +18,10 @@ export default function About() {
     "SCSS", "SASS" ,
     "Material_UI"]
   return (
-   <motion.div initial={{y:-100}} animate={{y:0, transition:{duration:1}}} className='mt-7 p-2 text-start'>
+   <motion.div initial={{y:-200}} animate={{y:0, transition:{duration:1}}} className='mt-7 p-2 text-start'>
    <p className='textShadow font-bold text-3xl	'>About</p>
    
-     <div className='font-bold p-4 mt-2 bg-white rounded-xl  '>
+     <div className='font-bold p-4 mt-2 text-white rounded-xl  '>
      <p className='italic text-slate-400 mb-2'>&lt;&gt;</p>
   
       <p>  Hello, I am a 23-year-old Front-End Engineer with a strong focus on developing web applications using React and Next.

@@ -17,7 +17,7 @@ export default function Contact() {
       <div className='p-7 font-bold '>
       <p className='italic text-slate-400 mb-2'>&lt;&gt;</p>
 
-        <p className='text-blue-200'>I am open to a role which allows me to apply my skills and knowledge in Front End to create cutting-edge web applications <br/><br/>
+        <p className='text-white'>I am open to a role which allows me to apply my skills and knowledge in Front End to create cutting-edge web applications <br/><br/>
         As a fresher in this field, I understand that I have a lot to learn, 
         but I am ready to embrace the challenges and dedicate myself to mastering React + Next and its ecosystem. 
         I believe in the power of continuous learning and 
