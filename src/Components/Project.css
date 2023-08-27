@@ -5,7 +5,11 @@
 .images-container div{
     overflow: hidden;
    
-    }    
+    }  
+ .BS
+ {
+    box-shadow: 0 0 40px rgba(13, 99, 220, 0.858);
+}     
 
     @media (min-width:500px) {
         .images-container div{
