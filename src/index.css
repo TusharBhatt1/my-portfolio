@@ -12,6 +12,22 @@ body {
   text-shadow: 2px 2px 2px rgba(92, 172, 192, 0.785);
   color:white;
 }
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+ 
+
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+
+
+}
 
 
 
