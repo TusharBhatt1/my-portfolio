@@ -30,7 +30,7 @@ export default function About() {
       <br/><br/>
       My field of expertise includes :
       </p>
-      <span className='flex mt-4 gap-4 flex-wrap font-semibold text-white '>
+      <span className='flex mt-4 gap-7 p-3 flex-wrap font-semibold text-white '>
       {skills.map(skill=><p className=' rounded-lg p-1 bg-blue-500'>{skill}</p>)}
       </span> 
       <br/>
