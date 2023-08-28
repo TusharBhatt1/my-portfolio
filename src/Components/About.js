@@ -24,14 +24,14 @@ export default function About() {
      <div className='font-bold p-4 mt-2 text-white rounded-xl  '>
      <p className='italic text-slate-400 mb-2'>&lt;&gt;</p>
   
-      <p>  Hello, I am a 23-year-old Front-End Engineer with a strong focus on developing web applications using React and Next.
+      <p>  Hello, I am a Front-End Engineer with a strong focus on developing web applications using <span className='text-red-500'>React</span> and <span className='text-red-500'>Next</span>.
       <br/><br/>
        I have a diverse skill set and hands-on experience with various other technologies and languages, enabling me to create robust and dynamic user interfaces.
       <br/><br/>
       My field of expertise includes :
       </p>
       <span className='flex mt-4 gap-7 p-3 flex-wrap font-semibold text-white '>
-      {skills.map(skill=><p className=' rounded-lg flex p-2 bg-blue-500'>{skill}</p>)}
+      {skills.map(skill=><p className=' rounded-lg flex overflow-auto p-2 bg-blue-500'>{skill}</p>)}
       </span> 
       <br/>
   
