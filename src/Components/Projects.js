@@ -1,18 +1,15 @@
-import NetflixImage from "../Images/Netflix.png"
-import ChatRoomApp from "../Images/ChatRoom.png"
-import NewEcommerce from "../Images/New-Ecommerce.png"
-import CryptoBuddy from "../Images/CryptoBuddy.png"
-import Ecommerce from "../Images/Ecommerce.png"
-import NoteApp from "../Images/Note-App.png"
-import Instagroww from "../Images/Screenshot (124).png"
+
 import { motion } from "framer-motion"
 import "./Project.css"
 import { useEffect} from "react"
 import { useInView } from "react-intersection-observer"
 import { useAnimation } from "framer-motion"
+import { AllProjects } from "../AllProjects"
 export default function Projects() {
+   
 
     const {ref, inView}= useInView({threshold:0.1})
+   
     const animation = useAnimation()
 
     useEffect(()=>{
@@ -37,20 +34,28 @@ export default function Projects() {
 
         <p className='textShadow font-bold text-3xl mt-12 '>My Work</p>
 
-        
-
-        <div ref={ref} className="images-container text-white flex gap-20 flex-wrap justify-center items-center p-12 text-center font-bold font-serif ">
+        <div ref={ref} className="flex flex-wrap justify-center items-center gap-20  p-10 ">
     
-    
-           <motion.div 
+         {AllProjects.map((project)=>(
+            <div className="flex flex-col  justify-center items-center  ">
+            <motion.div 
            animate={animation}
-            className="BS   p-2 rounded-xl hover:bg-blue-500 hover:text-white">
-                 <a href="https://instagroww.vercel.app/" target="_blank" rel="noreferrer">
-                <img src={Instagroww} className="h-auto w-auto" alt="Instagroww"/>
-                InstaGroww - NextJS + Redux
+            className="BS flex gap-20 rounded-full justify-center items-center text-center text-white font-extrabold  p-4 rounded-xl hover:bg-blue-500 hover:text-white h-[250px] w-[250px]">
+                 <a href={project.link} target="_blank" rel="noreferrer">
+                 <img
+          src={project.image}
+          className="h-auto w-auto"
+          alt={project.name}
+        />
+                {project.name}
                 </a>
             </motion.div>
-            <motion.div 
+            </div>
+         ))
+            
+           }
+           
+            {/* <motion.div 
            animate={animation} className="BS    rounded-lg hover:bg-blue-500 hover:text-white ">
                  <a href="https://net-flix-7ewm.vercel.app/" target="_blank" rel="noreferrer">
                 <img src={NetflixImage} className="h-auto w-auto" alt="Netflix"/>
@@ -88,7 +93,7 @@ export default function Projects() {
                 <img src={Ecommerce} className="h-auto w-auto" alt="NewEcommerce"/>
                React Ecommerce</a>
             </motion.div>
-           
+            */}
            
         </div>
     </div>

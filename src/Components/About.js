@@ -43,9 +43,15 @@ export default function About() {
         <span><MenuBookIcon/> MCA 2022-24</span>
         <span><FmdGoodIcon/> Dehradun, Uttarakhand, India </span>
       </div>
-      <div className=' animate-bounce flex justify-between mt-12'>
-       <ArrowDropDownCircleIcon/>
-       <ArrowDropDownCircleIcon/>
+      <div className='text-white flex flex-col gap-7  mt-20'>
+      <p className='textShadow font-bold text-3xl mt-12 '>Achievements</p>
+        <ul>
+        <li>* 140+ Questions on Leetcode.</li>
+        <li>* Multiple Coding Contests.</li>
+        <li>* Built Multiple mini projects : Folder/File Structure (Uses <span className='font-bold'>DFS</span> for insertion),
+        Employee Management System , Calculator(Vanilla JS) and more.</li>
+
+        </ul>
       </div>
       </motion.div>
   )

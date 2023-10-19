@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 
 export default function Front() {
   return (
-    <div className="  flex flex-col bg-blue-600">
+    <div className="  flex flex-col bg-black">
 
     {/* SIDE BAR */}
     
