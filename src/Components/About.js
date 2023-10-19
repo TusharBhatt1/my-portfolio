@@ -14,7 +14,7 @@ export default function About() {
     "JavaScriptES6" ,
     "Redux" ,
     "Tailwind" ,"CSS" ,
-    "Firebase" ,
+    "Git/Github" ,
     "SCSS", "SASS" ,
     "Material_UI"]
   return (
