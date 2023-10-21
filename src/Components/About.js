@@ -11,10 +11,12 @@ export default function About() {
   const skills=["ReactJS", "NextJS" ,
     "Problem_Solving" , 
     "HTML5" ,
+    "CSS",
     "JavaScriptES6" ,
     "Redux" ,
-    "Tailwind" ,"CSS" ,
+    "TypeScript",
     "Git/Github" ,
+    "Tailwind CSS" ,
     "SCSS", "SASS" ,
     "Material_UI"]
   return (
