@@ -40,14 +40,15 @@ export default function Projects() {
             <div className="flex flex-col  justify-center items-center  ">
             <motion.div 
            animate={animation}
-            className="BS flex gap-20 rounded-full justify-center items-center text-center text-white font-extrabold  p-4 rounded-xl hover:bg-blue-500 hover:text-white h-[250px] w-[250px]">
+            className="BS flex flex-wrap gap-20 rounded-full justify-center items-center text-center text-white font-extrabold  p-4 rounded-xl hover:bg-blue-500 hover:text-white h-[330px] w-[300px]">
                  <a href={project.link} target="_blank" rel="noreferrer">
                  <img
           src={project.image}
           className="h-auto w-auto"
           alt={project.name}
         />
-                {project.name}
+                <p className="mt-5">{project.name}</p>
+                <p className="text-blue-400 text-[9px]">{project.tech}</p>
                 </a>
             </motion.div>
             </div>
