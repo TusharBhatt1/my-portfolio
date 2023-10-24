@@ -48,7 +48,7 @@ export default function Projects() {
           alt={project.name}
         />
                 <p className="mt-5">{project.name}</p>
-                <p className="text-blue-400 text-[9px]">{project.tech}</p>
+                <p className="text-blue-400 text-[9px] mt-10">{project.tech}</p>
                 </a>
             </motion.div>
             </div>
