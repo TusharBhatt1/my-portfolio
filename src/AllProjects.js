@@ -6,7 +6,7 @@ import Instagroww from "./Images/Screenshot (124).png"
 
 export  const AllProjects=[
 
-    {name : "InstaGroww - NextJS + Redux",
+    {name : "InstaGroww",
     tech:"NEXTJS, REACT, REDUX , LOCAL STORAGE ,SSR , CACHING",
      link:"https://instagroww.vercel.app/",
      image: Instagroww}, // Relative to the location of this JavaScript file
