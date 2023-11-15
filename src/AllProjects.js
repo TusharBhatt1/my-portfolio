@@ -3,9 +3,13 @@ import ChatRoomApp from "./Images/ChatRoom.png"
 import NewEcommerce from "./Images/New-Ecommerce.png"
 import NotesApp from "./Images/Note-App.png"
 import Instagroww from "./Images/Screenshot (124).png"
+import RentApp from "./Images/RentApp.png"
 
 export  const AllProjects=[
-
+    {name : "Full Stack Rent App",
+    tech:"MongoDB, Prisma, NEXTJS, REACT,Tailwind",
+     link:"https://rent-app-alpha.vercel.app/",
+     image: RentApp},
     {name : "InstaGroww",
     tech:"NEXTJS, REACT, REDUX , LOCAL STORAGE ,SSR , CACHING",
      link:"https://instagroww.vercel.app/",
