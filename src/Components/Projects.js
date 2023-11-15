@@ -47,7 +47,7 @@ export default function Projects() {
           className="h-auto w-auto"
           alt={project.name}
         />    <div className=" flex flex-col  items-center mt-5 justify-center text-[10px] h-[100px] ">
-                <p className="text-[14px]">{project.name}</p>
+                <p className="text-[28px]">{project.name}</p>
                 <p className="text-blue-400">{project.tech}</p>
                 </div> 
                 </a>
