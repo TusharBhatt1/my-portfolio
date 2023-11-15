@@ -44,7 +44,7 @@ export default function Projects() {
                  <a href={project.link} target="_blank" rel="noreferrer">
                  <img
           src={project.image}
-          className="h-[90px] w-full"
+          className="h-[100px] w-full"
           alt={project.name}
         />    <div className=" flex flex-col  items-center mt-5 justify-center text-[10px] h-[100px] ">
                 <p className="text-[20px]">{project.name}</p>
