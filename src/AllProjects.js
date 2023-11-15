@@ -7,7 +7,7 @@ import RentApp from "./Images/RentApp.png"
 
 export  const AllProjects=[
     {name : "Full Stack Rent App",
-    tech:"MongoDB, Prisma, NEXTJS, REACT,Tailwind",
+    tech:"MongoDB, Prisma, Next, React,Tailwind",
      link:"https://rent-app-alpha.vercel.app/",
      image: RentApp},
     {name : "InstaGroww",
