@@ -47,8 +47,8 @@ export default function Projects() {
           className="h-auto w-auto"
           alt={project.name}
         />    <div className=" flex flex-col  items-center mt-5 justify-center text-[10px] h-[100px] ">
-                <p className="text-[28px]">{project.name}</p>
-                <p className="text-blue-400">{project.tech}</p>
+                <p className="text-[22px]">{project.name}</p>
+                <p className="text-slate-500 mt-2">{project.tech}</p>
                 </div> 
                 </a>
             </motion.div>
